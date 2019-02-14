@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<opml version="1.0">
+  <head>
+    <title>Pocket Casts Feeds</title>
+  </head>
+  <body>
+    <outline text="feeds">
+      <outline type="rss" text="Developer Tea" xmlUrl="https://rss.simplecast.com/podcasts/363/rss" />
+      <outline type="rss" text="Tradecraft Security Weekly (Video)" xmlUrl="http://tswvideo.swsgtv.libsynpro.com/rss" />
+      <outline type="rss" text="The Model Health Show: Nutrition | Exercise | Fitness | Health | Lifestyle" xmlUrl="http://themodelhealthshow.libsyn.com/rss" />
+      <outline type="rss" text="Podcast.__init__('Python')" xmlUrl="https://www.podcastinit.com/feed/mp3/" />
+      <outline type="rss" text="Table Talk Radio Podcasts" xmlUrl="http://www.tabletalkradio.org/content/feed" />
+      <outline type="rss" text="GroupBy – Free SQL Server Training" xmlUrl="http://groupby.libsyn.com/rss" />
+      <outline type="rss" text="Coding for Entrepreneurs" xmlUrl="https://anchor.fm/s/b34ebc/podcast/rss" />
+      <outline type="rss" text="CodePen Radio" xmlUrl="https://blog.codepen.io/feed/podcast/" />
+      <outline type="rss" text="The Indie Hackers Podcast" xmlUrl="http://feeds.backtracks.fm/feeds/indiehackers/indiehackers/feed.xml" />
+      <outline type="rss" text="The Star Wars Underworld Podcast" xmlUrl="http://starwarsunderworld.libsyn.com/rss" />
+      <outline type="rss" text="Threat Wire" xmlUrl="https://shannonmorse.podbean.com/feed.xml" />
+      <outline type="rss" text="The CyberWire - Your cyber security news connection." xmlUrl="http://thecyberwire.libsyn.com/rss" />
+      <outline type="rss" text="Redeemer Theological Academy" xmlUrl="http://redeemertheologicalacademy.org/?feed=rss2" />
+      <outline type="rss" text="The Changelog" xmlUrl="https://changelog.com/podcast/feed" />
+      <outline type="rss" text="Issues, Etc." xmlUrl="http://issuesetc.org/feed/podcast/" />
+      <outline type="rss" text="The Freelancers' Show" xmlUrl="https://feeds.feedwrench.com/TheFreelancersShow.rss" />
+      <outline type="rss" text="RevFisk: Raw" xmlUrl="https://revfisk.podbean.com/feed.xml" />
+      <outline type="rss" text="Akimbo: A Podcast from Seth Godin" xmlUrl="https://rss.art19.com/akimbo" />
+      <outline type="rss" text="Side Hustle School" xmlUrl="https://feeds.megaphone.fm/sidehustleschool" />
+      <outline type="rss" text="The Side Hustle Show: Business Ideas for Entrepreneurs and Side Hustle Nation" xmlUrl="http://sidehustlenation.libsyn.com/rss" />
+      <outline type="rss" text="The freeCodeCamp Podcast" xmlUrl="http://freecodecamp.libsyn.com/rss" />
+      <outline type="rss" text="Programming Throwdown" xmlUrl="http://feeds.feedburner.com/ProgrammingThrowdown" />
+      <outline type="rss" text="Paul's Security Weekly (Video-Only)" xmlUrl="http://pswvideoonly.swsgtv.libsynpro.com/rss" />
+      <outline type="rss" text="The Empire Podcast - Buying and Selling Websites | Investing in Online Assets and Businesses" xmlUrl="http://feeds.feedburner.com/AdSenseFlippersPodcast" />
+      <outline type="rss" text="Divi Nation Podcast" xmlUrl="https://www.elegantthemes.com/blog/feed/podcast" />
+      <outline type="rss" text="Daily Tech News Show" xmlUrl="http://feeds.feedburner.com/DailyTechNewsShow" />
+      <outline type="rss" text="Defensive Security Podcast - Malware, Hacking, Cyber Security &amp; Infosec" xmlUrl="https://defensivesecurity.org/feed/podcast/" />
+      <outline type="rss" text="NASACast: This Week @ NASA Video" xmlUrl="https://www.nasa.gov/rss/dyn/TWAN_vodcast.rss" />
+      <outline type="rss" text="Know How... (Video HD)" xmlUrl="HTTP://feeds.twit.tv/kh_video_hd.xml" />
+      <outline type="rss" text="SANS Internet Storm Center Daily Network/Cyber Security and Information Security Podcast" xmlUrl="https://isc.sans.edu/dailypodcast.xml" />
+      <outline type="rss" text="Software Engineering Daily" xmlUrl="https://softwareengineeringdaily.com/feed/podcast/" />
+      <outline type="rss" text="All JavaScript Podcasts by Devchat.tv" xmlUrl="https://feeds.feedwrench.com/JavaScriptJabber.rss" />
+      <outline type="rss" text="FLOSS Weekly (Video HD)" xmlUrl="http://feeds.twit.tv/floss_video_hd.xml" />
+      <outline type="rss" text="Hanselminutes - Fresh Talk and Tech for Developers" xmlUrl="https://rss.simplecast.com/podcasts/4669/rss" />
+      <outline type="rss" text="Modern Web" xmlUrl="https://modernweb.podbean.com/feed.xml" />
+      <outline type="rss" text="Syntax - Tasty Web Development Treats" xmlUrl="https://feed.syntax.fm/rss" />
+      <outline type="rss" text="React Podcast" xmlUrl="https://rss.simplecast.com/podcasts/6265/rss" />
+      <outline type="rss" text="This Week in Tech (Video HD)" xmlUrl="http://feeds.twit.tv/twit_video_hd.xml" />
+      <outline type="rss" text="The Tech Guy (Video HD)" xmlUrl="http://feeds.twit.tv/ttg_video_hd.xml" />
+      <outline type="rss" text="Professor Messer's Security+ Study Group" xmlUrl="http://www.spreaker.com/show/2132513/episodes/feed" />
+      <outline type="rss" text="This Week in Science – The Kickass Science Podcast" xmlUrl="http://feeds.feedburner.com/twis/science/" />
+      <outline type="rss" text="This Week in Enterprise Tech (Video HD)" xmlUrl="http://feeds.twit.tv/twiet_video_hd.xml" />
+      <outline type="rss" text="Daily Reflections – Higher Things" xmlUrl="https://feeds.podcastmirror.com/ht-daily-reflections" />
+      <outline type="rss" text="CodeNewbie" xmlUrl="http://feeds.codenewbie.org/cnpodcast.xml" />
+      <outline type="rss" text="All About Android (Video HD)" xmlUrl="http://feeds.twit.tv/aaa_video_hd.xml" />
+      <outline type="rss" text="Amateur Radio Newsline™" xmlUrl="https://www.arnewsline.org/?format=rss" />
+      <outline type="rss" text="Daily Tech Headlines" xmlUrl="http://feeds.feedburner.com/DailyTechHeadlines" />
+      <outline type="rss" text="Google Cloud Platform Podcast" xmlUrl="https://feeds.feedburner.com/GcpPodcast" />
+      <outline type="rss" text="The 6 Figure Developer Podcast" xmlUrl="http://6figuredev.com/feed/podcast" />
+      <outline type="rss" text="The Amazing Seller Podcast" xmlUrl="https://theamazingseller.com/feed/podcast/" />
+      <outline type="rss" text="Courage &amp; Clarity" xmlUrl="https://courageandclarity.fireside.fm/rss" />
+      <outline type="rss" text="Talk Python To Me - Python conversations for passionate developers" xmlUrl="https://talkpython.fm/episodes/rss" />
+      <outline type="rss" text="Coder Radio Video" xmlUrl="https://feedpress.me/codervideo" />
+      <outline type="rss" text="Python Out Loud" xmlUrl="https://pythonoutloud.fireside.fm/rss" />
+      <outline type="rss" text="mintCast" xmlUrl="https://mintcast.org/category/mp3/feed/" />
+      <outline type="rss" text="The Lutheran Hour" xmlUrl="https://www.lhm.org/podcasts/LHfeed.asp" />
+      <outline type="rss" text="This Week in Law (Video HD)" xmlUrl="http://feeds.twit.tv/twil_video_hd.xml" />
+      <outline type="rss" text="Hak5" xmlUrl="http://revision3.com/hak5/itunes/mp4-hd30/" />
+      <outline type="rss" text="What The Tech Podcast HD" xmlUrl="https://gfqnetwork.com/feed/wtthd/" />
+      <outline type="rss" text="React Native Radio" xmlUrl="https://feeds.feedwrench.com/react-native-radio.rss" />
+      <outline type="rss" text="SQL Server Radio" xmlUrl="http://www.sqlserverradio.com/feed/podcast/" />
+      <outline type="rss" text="Hack Naked News (Video)" xmlUrl="http://hntvvideo.swsgtv.libsynpro.com/rss" />
+      <outline type="rss" text="InfoSec Weekly Podcast" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:135076853/sounds.rss" />
+      <outline type="rss" text="Coding Blocks - Patterns, Architecture, Best Practices, Tips and Tricks for Software, Database, and Web Developers / Engineers" xmlUrl="http://feeds.podtrac.com/tBPkjrcL0_m0" />
+      <outline type="rss" text="AmateurLogic.TV" xmlUrl="https://www.amateurlogic.tv/transmitter/feeds/ipod.xml" />
+      <outline type="rss" text="Recorded Future - Inside Threat Intelligence for Cyber Security" xmlUrl="https://recordedfuture.libsyn.com/rss" />
+      <outline type="rss" text="Ham Nation (Video HD)" xmlUrl="http://feeds.twit.tv/hn_video_hd.xml" />
+      <outline type="rss" text="Today in iOS Podcast - The Unofficial iOS, iPhone, iPad, and Apple Watch News and iPhone Apps Podcast" xmlUrl="http://tii.libsyn.com/itunes" />
+      <outline type="rss" text="The Drawing Board by Udacity" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:314933361/sounds.rss" />
+      <outline type="rss" text="Enterprise Security Weekly (Video)" xmlUrl="http://eswvideo.swsgtv.libsynpro.com/rss" />
+      <outline type="rss" text="Star Wars Action News - Video Podcast Feed" xmlUrl="http://www.swactionnews.com/Star-Wars-Action-News-Itunes.xml" />
+      <outline type="rss" text="PC Perspective Podcast Video" xmlUrl="https://www.pcper.com/rss/podcasts-video.rss" />
+      <outline type="rss" text="Go Time" xmlUrl="https://changelog.com/gotime/feed" />
+      <outline type="rss" text="SQL Server Pain Relief: Office Hours with Brent Ozar Unlimited®" xmlUrl="http://brentozarunlimited.libsyn.com/rss" />
+      <outline type="rss" text="Secure Digital Life (Video)" xmlUrl="http://sdlvideo.swsgtv.libsynpro.com/rss" />
+      <outline type="rss" text="Professor Messer's Network+ Study Group" xmlUrl="http://www.spreaker.com/show/2127142/episodes/feed" />
+      <outline type="rss" text="MacBreak Weekly (Video HD)" xmlUrl="http://feeds.twit.tv/mbw_video_hd.xml" />
+      <outline type="rss" text="TWiT Bits (Video HD)" xmlUrl="http://feeds.twit.tv/bits_video_hd.xml" />
+      <outline type="rss" text="The Smart Passive Income Online Business and Blogging Podcast" xmlUrl="http://feeds.feedburner.com/spipodcast" />
+      <outline type="rss" text="Command Line Heroes" xmlUrl="https://feeds.pacific-content.com/commandlineheroes" />
+      <outline type="rss" text="God Geeks" xmlUrl="http://feeds.feedburner.com/godgeeks/GG" />
+      <outline type="rss" text="ShopTalk" xmlUrl="https://shoptalkshow.com/feed/podcast" />
+      <outline type="rss" text="The Cynical Developer" xmlUrl="https://cynicaldeveloper.com/feed/podcast/" />
+      <outline type="rss" text="Startups For the Rest of Us" xmlUrl="https://www.startupsfortherestofus.com/feed" />
+      <outline type="rss" text="TWiT Specials (Video HD)" xmlUrl="http://feeds.twit.tv/specials_video_hd.xml" />
+      <outline type="rss" text="Application Security Weekly (Video)" xmlUrl="http://aswvideo.swsgtv.libsynpro.com/rss" />
+      <outline type="rss" text="The Shared Security Podcast" xmlUrl="http://sharedsecurity.net/feed/podcast/?feed=podcast" />
+      <outline type="rss" text="Learn to Code With Me" xmlUrl="http://learntocodewithme.libsyn.com/rss" />
+      <outline type="rss" text="Security Now (Video HD)" xmlUrl="http://feeds.twit.tv/sn_video_hd" />
+      <outline type="rss" text="Fighting for the Faith" xmlUrl="http://podcast.fightingforthefaith.com/FFTF.xml" />
+      <outline type="rss" text="Tropical MBA - Entrepreneurship, Travel, and Lifestyle" xmlUrl="http://www.tropicalmba.com/feed/podcast/" />
+      <outline type="rss" text="Python Bytes" xmlUrl="https://pythonbytes.fm/episodes/rss" />
+      <outline type="rss" text="Professor Messer's A+ Study Group" xmlUrl="http://www.spreaker.com/show/525662/episodes/feed" />
+      <outline type="rss" text="Daily Devotions from Lutheran Hour Ministries" xmlUrl="https://www.lhm.org/podcasts/devofeed.asp" />
+      <outline type="rss" text="Hands-On Tech (Video HD)" xmlUrl="http://feeds.twit.tv/hot_video_hd.xml" />
+      <outline type="rss" text="Entrepreneurs On Fire | Ignite your Entrepreneurial journey" xmlUrl="http://entrepreneuronfire.libsyn.com/rss" />
+      <outline type="rss" text="React Round Up" xmlUrl="https://feeds.feedwrench.com/react-round-up.rss" />
+      <outline type="rss" text="This Week in Startups - Video" xmlUrl="http://feeds2.feedburner.com/twistvid" />
+      <outline type="rss" text="The New Screen Savers (Video HD)" xmlUrl="http://feeds.twit.tv/tnss_video_hd.xml" />
+      <outline type="rss" text="This Week in Computer Hardware (Video HD)" xmlUrl="http://feeds.twit.tv/twich_video_hd.xml" />
+      <outline type="rss" text="The Fizzle Show" xmlUrl="https://fizzleshow.fireside.fm/rss" />
+      <outline type="rss" text="Daily Tech News Show (Video)" xmlUrl="http://feeds.feedburner.com/daily_tech_news_show" />
+      <outline type="rss" text="Business Security Weekly (Video)" xmlUrl="http://sswvideo.swsgtv.libsynpro.com/rss" />
+      <outline type="rss" text="Triangulation (Video HD)" xmlUrl="http://feeds.twit.tv/tri_video_hd.xml" />
+      <outline type="rss" text="Smashing Security" xmlUrl="https://www.smashingsecurity.com/rss" />
+      <outline type="rss" text="Windows Weekly (Video HD)" xmlUrl="http://feeds.twit.tv/ww_video_hd.xml" />
+      <outline type="rss" text="Cross Defense from KFUO Radio" xmlUrl="http://podcast.kfuo.org/podcast/CD.xml" />
+    </outline>
+  </body>
+</opml>
