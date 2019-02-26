@@ -11,11 +11,13 @@ function onChange(event) {
     // Add class
     listItem.className = "litem";
     // Create text node and append to li
-    listItem.appendChild(
-      document.createTextNode(
-        xmlParse.getElementsByTagName("outline")[1].getAttribute("text")
-      )
-    );
+    for (i = 1; i < 5; i++) {
+      listItem.appendChild(
+        document.createTextNode(
+          xmlParse.getElementsByTagName("outline")[i].getAttribute("text")
+        )
+      );
+    }
     // Append li to ul
     unorderedList.appendChild(listItem);
   };
