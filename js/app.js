@@ -6,20 +6,16 @@ function onChange(event) {
     const parser = new DOMParser();
     const xmlParse = parser.parseFromString(xmlString, "text/xml");
     const unorderedList = document.querySelector(".ulist");
-    // Create li element
-    const listItem = document.createElement("li");
-    // Add class
-    listItem.className = "litem";
-    // Create text node and append to li
-    for (i = 1; i < 5; i++) {
+    // Create text node and append to li (Credit to @Interactive Rubber Duck for help with this)
+    const xmlNodes = xmlParse.getElementsByTagName("outline");
+    const nodeCount = xmlNodes.length;
+    for (let i = 1; i < nodeCount; i++) {
+      const listItem = document.createElement("li");
       listItem.appendChild(
-        document.createTextNode(
-          xmlParse.getElementsByTagName("outline")[i].getAttribute("text")
-        )
+        document.createTextNode(xmlNodes[i].getAttribute("text"))
       );
+      unorderedList.appendChild(listItem);
     }
-    // Append li to ul
-    unorderedList.appendChild(listItem);
   };
 
   reader.readAsText(file);
