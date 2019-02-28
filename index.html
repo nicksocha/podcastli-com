@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <title>Podcast &lt li &gt</title>
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+  </head>
 
-<body>
+  <body>
     <h1>Podcast &lt li &gt</h1>
     <!-- Upload File  -->
-    <input type="file" onchange="onChange(event)">
+    <input type="file" onchange="onChange(event)" />
+    <button onclick="sortList()">Sort A-Z</button>
     <!-- Display Results -->
     <p>Results</p>
-    <ul class="ulist"></ul>
-
+    <ul class="ulist" id="list"></ul>
     <script src="js/app.js"></script>
-</body>
-
+  </body>
 </html>
