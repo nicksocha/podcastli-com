@@ -1,3 +1,91 @@
-li {
-  list-style-type: none;
+/* * {
+  border: 1px solid gray;
+} */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif, android emoji, apple color emoji,
+    emojione mozilla, emojisymbols, noto color emoji, segoe ui emoji,
+    segoe ui symbol, twemoji mozilla;
+  font-weight: 400;
+  min-width: 375px;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 3.6rem;
+}
+
+.h1li {
+  color: #f43e37;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif, android emoji, apple color emoji,
+    emojione mozilla, emojisymbols, noto color emoji, segoe ui emoji,
+    segoe ui symbol, twemoji mozilla;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.btn {
+  color: #f43e37;
+  margin: 10px 50px;
+  border-color: #f43e37;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.custom-file-label {
+  background-color: black;
+  color: #f43e37;
+}
+
+p {
+  margin: 0;
+}
+
+.uList {
+  margin-bottom: 20px;
+}
+
+.podcastsHeading {
+  text-decoration: underline overline #f43e37;
+}
+
+hr {
+  border: 2px solid #f43e37;
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+}
+
+html {
+  height: 100%;
+}
+
+.footerYear {
+  margin: 10px;
+}
+
+.podcastsSection {
+  margin: 0 30px;
 }
