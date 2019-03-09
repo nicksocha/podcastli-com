@@ -1,3 +1,7 @@
+/* * {
+  border: 1px solid gray;
+} */
+
 body {
   background-color: black;
   color: white;
@@ -24,7 +28,6 @@ footer {
 
 h1 {
   font-size: 3rem;
-  margin-bottom: 0;
   text-align: center;
 }
 
@@ -38,6 +41,7 @@ h6 {
     emojione mozilla, emojisymbols, noto color emoji, segoe ui emoji,
     segoe ui symbol, twemoji mozilla;
   font-weight: 900;
+  margin: 0;
 }
 
 hr {
@@ -74,8 +78,16 @@ li {
   color: #f43e37;
 }
 
-.podcastsHeading {
-  margin: 25px 0;
+.introHeading {
+  padding: 10px 0;
+}
+
+.podcastsHeadingNone {
+  display: none;
+}
+
+.podcastsHeadingShow {
+  margin: 20px 0;
   text-decoration: underline overline #f43e37;
 }
 

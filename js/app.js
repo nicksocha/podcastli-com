@@ -18,6 +18,10 @@ function onChange(event) {
       );
       unorderedList.appendChild(listItem);
       unorderedList.classList.add('uListStyle');
+      document
+        .getElementById('podcasts')
+        .classList.remove('podcastsHeadingNone');
+      document.getElementById('podcasts').classList.add('podcastsHeadingShow');
     }
   };
 
