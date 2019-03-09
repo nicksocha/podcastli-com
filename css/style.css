@@ -1,7 +1,3 @@
-/* * {
-  border: 1px solid gray;
-} */
-
 body {
   background-color: black;
   color: white;
@@ -9,14 +5,27 @@ body {
     emojione mozilla, emojisymbols, noto color emoji, segoe ui emoji,
     segoe ui symbol, twemoji mozilla;
   font-weight: 400;
-  min-width: 375px;
   min-height: 100%;
-  position: relative;
+  min-width: 375px;
   padding-bottom: 3.6rem;
+  position: relative;
 }
 
-.h1li {
-  color: #f43e37;
+footer {
+  bottom: 0;
+  color: white;
+  left: 0;
+  margin-top: 20px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 h1,
@@ -31,17 +40,24 @@ h6 {
   font-weight: 900;
 }
 
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 0;
+hr {
+  border: 2px solid #f43e37;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+li {
+  border-bottom: 1px solid #404040;
 }
 
 .btn {
-  color: #f43e37;
-  margin: 10px 50px;
   border-color: #f43e37;
   box-shadow: none !important;
+  color: #f43e37;
+  margin: 10px 50px;
   outline: none !important;
 }
 
@@ -50,42 +66,34 @@ h1 {
   color: #f43e37;
 }
 
-p {
-  margin: 0;
-}
-
-.uList {
-  margin-bottom: 20px;
-}
-
-.podcastsHeading {
-  text-decoration: underline overline #f43e37;
-}
-
-hr {
-  border: 2px solid #f43e37;
-  margin: 0;
-}
-
-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  color: white;
-  margin-top: 20px;
-  text-align: center;
-}
-
-html {
-  height: 100%;
-}
-
 .footerYear {
   margin: 10px;
 }
 
+.h1li {
+  color: #f43e37;
+}
+
+.podcastsHeading {
+  margin: 25px 0;
+  text-decoration: underline overline #f43e37;
+}
+
 .podcastsSection {
-  margin: 0 30px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+
+.uList {
+  list-style: none;
+  padding: 10px;
+}
+
+.uListStyle {
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  border: 2px solid #f43e37;
+  box-shadow: 0 0 10px #e6e6e6;
 }

@@ -1,4 +1,4 @@
-// Upload File and Parse
+// start Upload File and Parse
 
 function onChange(event) {
   const file = event.target.files[0];
@@ -12,18 +12,19 @@ function onChange(event) {
     const xmlNodes = xmlParse.getElementsByTagName('outline');
     const nodeCount = xmlNodes.length;
     for (let i = 1; i < nodeCount; i++) {
-      const listItem = document.createElement('p');
+      const listItem = document.createElement('li');
       listItem.appendChild(
         document.createTextNode(xmlNodes[i].getAttribute('text'))
       );
       unorderedList.appendChild(listItem);
+      unorderedList.classList.add('uListStyle');
     }
   };
 
   reader.readAsText(file);
 }
 
-// Sort List
+// start Sort List
 
 function sortList() {
   let list;
@@ -38,7 +39,7 @@ function sortList() {
   dir = 'asc';
   while (switching) {
     switching = false;
-    b = list.getElementsByTagName('P');
+    b = list.getElementsByTagName('li');
     for (i = 0; i < b.length - 1; i++) {
       shouldSwitch = false;
       if (dir === 'asc') {
@@ -64,7 +65,7 @@ function sortList() {
   }
 }
 
-// Automatically update year in footer
+// start Automatically update year in footer
 
 const yyyy = new Date().getFullYear();
 document.getElementById(
