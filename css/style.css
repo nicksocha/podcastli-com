@@ -55,6 +55,7 @@ html {
 
 li {
   border-bottom: 1px solid #404040;
+  list-style: none;
 }
 
 .btn {
@@ -87,8 +88,12 @@ li {
 }
 
 .podcastsHeadingShow {
-  margin: 20px 0;
-  text-decoration: underline overline #f43e37;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  margin-bottom: 20px;
+  text-decoration: underline #f43e37;
+  user-select: none;
 }
 
 .podcastsSection {
@@ -99,8 +104,8 @@ li {
 }
 
 .uList {
-  list-style: none;
   padding: 10px;
+  margin: 10px 0;
 }
 
 .uListStyle {
