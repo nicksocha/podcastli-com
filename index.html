@@ -7,18 +7,11 @@
     <!--Meta Description-->
     <meta
       name="description"
-      content="Upload your xml file from Pocket Casts and get back a clean list of your favorite podcasts."
+      content="Export subscriptions from your favorite podcast app and upload the file to get your list."
     />
     <title>Podcastli.com</title>
     <!--Favicon-->
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
-    <!-- Bootstrap 4.3.1 -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
     <!-- Google Font -->
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,900"
@@ -26,6 +19,20 @@
     />
     <!--CSS Style Sheet-->
     <link href="css/style.css" rel="stylesheet" />
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-134217434-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-134217434-3");
+    </script>
   </head>
 
   <body>
@@ -36,42 +43,34 @@
       <hr />
     </header>
     <!-- start Podcast Section -->
-    <section class="podcastsSection">
-      <h6 class="introHeading">
+    <section class="podcasts-section">
+      <h4 class="intro-heading">
         Export subscriptions from your favorite podcast app and upload the file
         to get your list.
-      </h6>
+      </h4>
       <!-- Upload File  -->
-      <div class="input-group align-items-center">
-        <div class="custom-file col-md-4">
+      <div class="button-group">
+        <div class="upload-file">
           <input
             type="file"
             onchange="onChange(event)"
-            class="custom-file-input"
-            id="inputGroupFile01"
-            aria-describedby="inputGroupFileAddon01"
+            class="upload-file-input"
           />
-          <label class="custom-file-label" for="inputGroupFile01"
-            >Upload File</label
-          >
+          <label class="upload-file-label">Upload File</label>
         </div>
-        <button
-          type="button"
-          class="btn btn-outline-danger"
-          onclick="sortList()"
-        >
-          Sort A-Z &#x25B2;&#x25BC;
+        <button type="button" class="sort-button" onclick="sortList()">
+          Sort A-z &#x25B2;&#x25BC;
         </button>
       </div>
       <!-- Display Results -->
-      <ul class="uList" id="list">
-        <h2 class="podcastsHeadingNone" id="podcasts">Podcasts</h2>
+      <ul class="ulist" id="list">
+        <h2 class="podcasts-heading-none" id="podcasts">Podcasts</h2>
       </ul>
     </section>
     <!-- start Footer -->
     <footer>
       <hr />
-      <h6 class="footerYear" id="year"></h6>
+      <h4 class="footer-year" id="year"></h4>
     </footer>
     <script src="js/app.js"></script>
   </body>

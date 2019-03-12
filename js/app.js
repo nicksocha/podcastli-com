@@ -7,7 +7,7 @@ function onChange(event) {
     const xmlString = event.target.result;
     const parser = new DOMParser();
     const xmlParse = parser.parseFromString(xmlString, 'text/xml');
-    const unorderedList = document.querySelector('.uList');
+    const unorderedList = document.querySelector('.ulist');
     // Create text node and append to li (Thanks to @lyonsbp for help with this.)
     const xmlNodes = xmlParse.getElementsByTagName('outline');
     const nodeCount = xmlNodes.length;
@@ -17,11 +17,11 @@ function onChange(event) {
         document.createTextNode(xmlNodes[i].getAttribute('text'))
       );
       unorderedList.appendChild(listItem);
-      unorderedList.classList.add('uListStyle');
+      unorderedList.classList.add('ulist-style');
       document
         .getElementById('podcasts')
-        .classList.remove('podcastsHeadingNone');
-      document.getElementById('podcasts').classList.add('podcastsHeadingShow');
+        .classList.remove('podcasts-heading-none');
+      document.getElementById('podcasts').classList.add('podcasts-heading');
     }
   };
 
