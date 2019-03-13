@@ -1,77 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <!--Meta Description-->
-    <meta
-      name="description"
-      content="Export subscriptions from your favorite podcast app and upload the file to get your list."
-    />
-    <title>Podcastli.com</title>
-    <!--Favicon-->
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
-    <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,900"
-      rel="stylesheet"
-    />
-    <!--CSS Style Sheet-->
-    <link href="css/style.css" rel="stylesheet" />
-    <!-- Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-134217434-3"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "UA-134217434-3");
-    </script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <!--Meta Description-->
+  <meta name="description"
+    content="Export subscriptions from your favorite podcast app and upload the file to get your list." />
+  <title>Podcastli.com</title>
+  <!--Favicon-->
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet" />
+  <!--CSS Style Sheet-->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134217434-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  <body>
-    <!-- start Header -->
-    <header>
-      <hr />
-      <h1>Podcast <span class="h1li">&lt li &gt</span></h1>
-      <hr />
-    </header>
-    <!-- start Podcast Section -->
-    <section class="podcasts-section">
-      <h4 class="intro-heading">
-        Export subscriptions from your favorite podcast app and upload the file
-        to get your list.
-      </h4>
-      <!-- Upload File  -->
-      <div class="button-group">
-        <div class="upload-file">
-          <input
-            type="file"
-            onchange="onChange(event)"
-            class="upload-file-input"
-          />
-          <label class="upload-file-label">Upload File</label>
-        </div>
-        <button type="button" class="sort-button" onclick="sortList()">
-          Sort A-z &#x25B2;&#x25BC;
-        </button>
-      </div>
-      <!-- Display Results -->
-      <ul class="ulist" id="list">
-        <h2 class="podcasts-heading-none" id="podcasts">Podcasts</h2>
-      </ul>
-    </section>
-    <!-- start Footer -->
-    <footer>
-      <hr />
-      <h4 class="footer-year" id="year"></h4>
-    </footer>
-    <script src="js/app.js"></script>
-  </body>
+    gtag('config', 'UA-134217434-3');
+  </script>
+
+</head>
+
+<body>
+  <!-- start Header -->
+  <header>
+    <hr />
+    <h1>Podcast <span class="h1li">&lt li &gt</span></h1>
+    <hr />
+  </header>
+  <!-- start Podcast Section -->
+  <section class="podcasts-section">
+    <h4 class="intro-heading">
+      Export subscriptions from your favorite podcast app and upload the file
+      to get your list.
+    </h4>
+    <div>
+      <input type="file" onchange="onChange(event)" id="upload-button" /><label for="upload-button" />Upload
+      File</label>
+      <button type="button" class="sort-button" onclick="sortList()">Sort A-z &#x25B2;&#x25BC;</button>
+    </div>
+    <!-- Display Results -->
+    <ul class="ulist" id="list">
+      <h2 class="podcasts-heading-none" id="podcasts">Podcasts</h2>
+    </ul>
+  </section>
+  <!-- start Footer -->
+  <footer>
+    <hr />
+    <h4 class="footer-year" id="year"></h4>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+
 </html>

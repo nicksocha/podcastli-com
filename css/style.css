@@ -103,8 +103,29 @@ li {
   margin: 20px 50px;
 }
 
+.sort-button {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  background-color: var(--black);
+  border-radius: 0.25rem;
+  border: 1px solid var(--main);
+  color: var(--white);
+  font-size: 1rem;
+  margin: 25px;
+  outline: none;
+  padding: 0.375rem 0.75rem;
+  padding: 0.43rem 1.55rem;
+  transition: 0.15s ease-in-out;
+  user-select: none;
+}
+
+.sort-button:hover {
+  background-color: var(--main);
+}
+
 .ulist {
-  margin: 10px 0;
+  margin: 20px 0;
   padding: 10px;
 }
 
@@ -115,66 +136,33 @@ li {
   box-shadow: 0 0 10px #e6e6e6;
 }
 
-/* Start A-z Button */
+[type="file"] {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  height: 0;
+  overflow: hidden;
+  user-select: none;
+  width: 0;
+}
 
-.sort-button {
+[type="file"] + label {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
   background-color: var(--black);
   border-radius: 0.25rem;
   border: 1px solid var(--main);
   color: var(--white);
   font-size: 1rem;
+  margin: 25px;
   outline: none;
   padding: 0.375rem 0.75rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  padding: 0.4rem 2rem;
+  transition: 0.15s ease-in-out;
+  user-select: none;
 }
 
-.sort-button:hover {
+[type="file"] + label:hover {
   background-color: var(--main);
-}
-
-/* Start Upload button */
-
-.button-group {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 150px 150px;
-  margin: 20px;
-  min-height: 30px;
-}
-
-.upload-file {
-  display: grid;
-  position: relative;
-}
-
-.upload-file-input {
-  height: calc(1.5em + 0.75rem + 2px);
-  margin: 0;
-  opacity: 0;
-  width: 100%;
-  z-index: 2;
-}
-
-.upload-file-label {
-  border-radius: 0.25rem;
-  border: 1px solid var(--main);
-  font-size: 1rem;
-  height: 100%;
-  line-height: 1.4;
-  outline: none;
-  padding: 0.375rem 0.75rem;
-  position: absolute;
-  text-align: center;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
-  width: 100%;
-}
-
-.upload-file-label:hover {
-  background-color: var(--main);
-}
-
-@-moz-document url-prefix() {
-  .upload-file-label {
-    line-height: 1.5;
-  }
 }
