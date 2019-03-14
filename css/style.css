@@ -133,7 +133,7 @@ li {
   background-color: #1a1a1a;
   border-radius: 5px;
   border: 2px solid var(--main);
-  box-shadow: 0 0 10px #e6e6e6;
+  box-shadow: 0 0 8px #e6e6e6;
 }
 
 [type="file"] {
