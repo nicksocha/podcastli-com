@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<opml version="1.0">
+  <head>
+    <title>PodcastAddict registration feeds</title>
+    <dateCreated>Mar 11, 2019 10:41:53 PM</dateCreated>
+    <dateModified>Mar 11, 2019 10:41:53 PM</dateModified>
+  </head>
+  <body>
+    <outline text="Security Now (MP3)" type="rss" xmlUrl="http://feeds.twit.tv/sn.xml" htmlUrl="https://twit.tv/shows/security-now" />
+    <outline text="The Tech Guy (MP3)" type="rss" xmlUrl="http://feeds.twit.tv/kfi.xml" htmlUrl="https://twit.tv/shows/the-tech-guy" />
+    <outline text="This Week in Tech (MP3)" type="rss" xmlUrl="http://feeds.twit.tv/twit.xml" htmlUrl="https://twit.tv/shows/this-week-in-tech" />
+  </body>
+</opml>

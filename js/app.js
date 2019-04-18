@@ -8,14 +8,18 @@ function onChange(event) {
     const parser = new DOMParser();
     const xmlParse = parser.parseFromString(xmlString, 'text/xml');
     const unorderedList = document.querySelector('.ulist');
-    // Create text node and append to li (Thanks to @lyonsbp for help with this.)
+
+    // Create text node and append to li
     const xmlNodes = xmlParse.getElementsByTagName('outline');
     const nodeCount = xmlNodes.length;
-    for (let i = 1; i < nodeCount; i++) {
+    for (let i = 0; i < nodeCount; i++) {
       const listItem = document.createElement('li');
       listItem.appendChild(
         document.createTextNode(xmlNodes[i].getAttribute('text'))
       );
+      if (listItem.textContent === 'feeds') {
+        continue;
+      }
       unorderedList.appendChild(listItem);
       unorderedList.classList.add('ulist-style');
       document
@@ -24,7 +28,6 @@ function onChange(event) {
       document.getElementById('podcasts').classList.add('podcasts-heading');
     }
   };
-
   reader.readAsText(file);
 }
 
